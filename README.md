@@ -1,3 +1,4 @@
+cat << 'EOF' > README.md
 # 🎮 Gaming Chatbot
 
 A desktop utility chatbot built with Python and Tkinter that acts as a localized, intelligent gaming assistant. It utilizes Natural Language Processing (NLP) to understand user intent and provide instant recommendations, tech troubleshooting steps, hardware advice, and general gaming knowledge.
@@ -25,5 +26,7 @@ Before running the application, make sure you have Python 3.10+ installed along 
 
 1. Clone or download this folder to your machine.
 2. Open your terminal inside this folder and install the dependencies:
-   ```bash
-   pip install sentence-transformers torch
+
+pip install sentence-transformers torch
+
+EOF
